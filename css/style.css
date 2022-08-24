@@ -1,0 +1,99 @@
+.promo {
+    height: 800px;
+    background: url("../img/main_bg.jpg") no-repeat center top / cover ;
+    padding-top: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 41px;
+    color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.text {
+font-size: 21px;
+line-height: 28px;
+text-align: center; 
+color: white;     
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.intensive {
+    height: 500px;
+    background: #EFEFEF;
+    padding-top: 85px;
+    padding-bottom: 74px;
+    text-align: center;
+}
+
+.intensive h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal; 
+}
+
+.intensive h3 {
+    font-size: 23px;
+    color: #4A4A4A;
+    font-weight: normal;
+}
+
+.flex {
+    display: flex;
+}
+
+.intem {
+    width: 33.3%;
+    padding: 24px;
+}
+
+.skills {
+    height: 447px;
+    background: url("../img/main_bg.jpg") no-repeat center top / cover ;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.skills_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.skills_item {
+    padding: 0 30px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.skills_item p {
+    color: white;
+
+}
